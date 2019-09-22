@@ -39,7 +39,7 @@
 
 处理的数据均为中文文本评论，选择采用 <u>自然语言处理</u> 的方法。
 
-**RNN, LSTM**及其变体在自然语言处理中的应用较为广泛，其效果均比较明显。
+**RNN, LSTM** 及其变体在自然语言处理中的应用较为广泛，其效果均比较明显。
 
 **RNN**在处理 long term memory时存在缺陷（只考虑最近的状态）	
 
@@ -432,7 +432,7 @@ test(-) : test(S) = num(-) : num(S)
 
 **测试结果**
 
-![test_9_data](https://s2.ax1x.com/2019/09/22/u9VekF.png)
+![test_9_data](https://s2.ax1x.com/2019/09/22/u9GqZ4.png)
 
 
 
