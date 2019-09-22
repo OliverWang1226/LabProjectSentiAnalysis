@@ -23,7 +23,10 @@
 
 ​	数据目录：[./dataset/uniqlo_real_comments.xlsx](./dataset/uniqlo_real_comments.xlsx)
 
+
 ​	数据概览：		![normal_data](https://s2.ax1x.com/2019/09/22/u9Ejw8.png)
+
+
 
 
 
