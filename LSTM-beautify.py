@@ -146,11 +146,11 @@ def getTrainTest(columns, pos_num, neg_num, train_pos_num,
     pos_data = getPosData()
     neg_data = getNegData()
     # 获取比例
-    pos_ratio = pos_num / 8553
-    neg_ratio = neg_num / 4904
+    pos_ratio = pos_num / 8553      # 正向数据总量
+    neg_ratio = neg_num / 4904      # 负向数据总量
     train_pos_ratio = train_pos_num / pos_num
     train_neg_ratio = train_neg_num / neg_num
-    train_mis_ratio = train_mis_num / 773
+    train_mis_ratio = train_mis_num / 1     # mis_data 特殊数据总量
     # 获取一定数量的pos neg （train + test)
     pos_data = getPartSetFromDF(pos_data, pos_ratio, columns)
     neg_data = getPartSetFromDF(neg_data, neg_ratio, columns)
@@ -202,11 +202,11 @@ word_row_name = new_row_name
 vector_row_name = 'vector'
 x_row_name = 'vector'
 y_row_name = 'sentiment'
-pos_num = 500
-neg_num = 500
-train_pos_num = 350
-train_neg_num = 350
-train_mis_num = 540
+pos_num = 4
+neg_num = 3
+train_pos_num = 3
+train_neg_num = 2
+train_mis_num = 1
 vec_maxlen = 50
 embedding_output_dim = 128
 LSTM_output_dim = 128
