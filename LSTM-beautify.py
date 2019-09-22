@@ -222,9 +222,11 @@ epoch_scores = []
 fold_scores = []
 record = dict()
 record_df = pd.DataFrame()
-for j in range(0, 13):
+
+for j in range(0, 1):
     fold_num += 1
     # 10次循环共1个fold, 每次循环为 1 circle = 10 epochs, 得到1个score
+    # 不使用手动k-fold时 range(0, 1)
     for i in range(0, 10):
         circle_num += 1
         train, test = getTrainTest(columns, pos_num, neg_num, train_pos_num,
@@ -255,10 +257,10 @@ for j in range(0, 13):
         circle_score += line
     circle_score = circle_score / 10
     print("Circle average score: " + str(circle_score))
-    pos_num = int(pos_num * 1.2)
-    neg_num = int(neg_num * 1.2)
-    train_pos_num = int(train_pos_num * 1.2)
-    train_neg_num = int(train_neg_num * 1.2)
+    # pos_num = int(pos_num * 1.2)
+    # neg_num = int(neg_num * 1.2)
+    # train_pos_num = int(train_pos_num * 1.2)
+    # train_neg_num = int(train_neg_num * 1.2)
     record['pos_num'] = pos_num
     record['train_pos'] = train_pos_num
     record['score'] = circle_score
