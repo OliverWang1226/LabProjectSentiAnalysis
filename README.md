@@ -23,7 +23,7 @@
 
 ​	数据目录：[./dataset/uniqlo_real_comments.xlsx](./dataset/uniqlo_real_comments.xlsx)
 
-​	数据概览：		![1569124818349](.\dataset\image\normal_data.png)
+​	数据概览：		![normal_data](https://s2.ax1x.com/2019/09/22/u9Ejw8.png)
 
 
 
@@ -39,7 +39,7 @@
 
 ​	数据概览：
 
-![1569124749182](.\dataset\image\mis_data.png)
+![mis_data](https://s2.ax1x.com/2019/09/22/u9EXef.png)
 
 ​	
 
@@ -115,7 +115,7 @@ CPU：i7-4790K
 
 特殊：[./dataset/processed_mis.csv](./dataset/processed_mis.csv)
 
-**处理结果如下表**![reprocessed_result](G:\PycharmProjects\LabProjectUniqlo\dataset\image\reprocessed_result.jpg)
+**处理结果如下表**![reprocessed_result](https://s2.ax1x.com/2019/09/22/u9Eqyt.png)
 
 其中评论列名为 **‘comment’**， 情感标签列名为 **’sentiment‘**
 
@@ -151,7 +151,7 @@ CPU：i7-4790K
 
 初始参数设置：
 
-![param_set_1](G:\PycharmProjects\LabProjectUniqlo\dataset\image\param_set_1.jpg)
+![param_set_1](https://s2.ax1x.com/2019/09/22/u9EbQI.png)
 
 
 
@@ -165,7 +165,7 @@ CPU：i7-4790K
 
 **数据构成：**
 
-![test_1_data](G:\PycharmProjects\LabProjectUniqlo\dataset\image\test_1_data.jpg)
+![test_1_data](https://s2.ax1x.com/2019/09/22/u9EHSA.png)
 
 
 
@@ -183,7 +183,7 @@ CPU：i7-4790K
 
 **数据构成：**
 
-![test_2_data](G:\PycharmProjects\LabProjectUniqlo\dataset\image\test_2_data.jpg)
+![test_2_data](https://s2.ax1x.com/2019/09/22/u9ELOP.png)
 
 **测试精度：**
 
@@ -209,11 +209,11 @@ CPU：i7-4790K
 
 **数据构成：**
 
-![test_3_data](G:\PycharmProjects\LabProjectUniqlo\dataset\image\test_3_data.jpg)
+![test_3_data](https://s2.ax1x.com/2019/09/22/u9EvTS.png)
 
 **测试结果：**
 
-![test-3](G:\PycharmProjects\LabProjectUniqlo\dataset\image\test-3.jpg)
+![test-3](https://s2.ax1x.com/2019/09/22/u9VmY4.png)
 
 **平均精度：**
 
@@ -235,7 +235,7 @@ CPU：i7-4790K
 
 **测试结果：**
 
-![1569136909409](C:\Users\Olymn\AppData\Roaming\Typora\typora-user-images\1569136909409.png)
+![1569136909409](https://s2.ax1x.com/2019/09/22/u9eJRH.png)
 
 **平均精度：**
 
@@ -255,11 +255,11 @@ CPU：i7-4790K
 
 **数据构成：**
 
-![test_5_data](G:\PycharmProjects\LabProjectUniqlo\dataset\image\test_5_data.jpg)
+![test_5_data](https://s2.ax1x.com/2019/09/22/u9VpWj.png)
 
 **测试结果：**
 
-![test-5](G:\PycharmProjects\LabProjectUniqlo\dataset\image\test_5.jpg)
+![test-5](https://s2.ax1x.com/2019/09/22/u9VSYQ.png)
 
 分析：
 
@@ -279,15 +279,15 @@ CPU：i7-4790K
 
 **Keras逻辑回归测试结果:**
 
-![test_6_keras_lr](G:\PycharmProjects\LabProjectUniqlo\dataset\image\test_6_keras_lr.jpg)
+![test_6_keras_lr](https://s2.ax1x.com/2019/09/22/u9VCSs.png)
 
 **sklearn.LinReg.LogisticRegression方法测试结果：**
 
-![test_6_sklearn_LinReg](G:\PycharmProjects\LabProjectUniqlo\dataset\image\test_6_sklearn_LinReg.jpg)
+![test_6_sklearn_LinReg](https://s2.ax1x.com/2019/09/22/u9VPln.png)
 
 **sklearn.svm.LinearSVC 及 sklearn.svm.S方法测试结果：**
 
-![test_6_svm](G:\PycharmProjects\LabProjectUniqlo\dataset\image\test_6_svm.jpg)
+![test_6_svm](https://s2.ax1x.com/2019/09/22/u9Viyq.png)
 
 
 
@@ -311,7 +311,7 @@ CPU：i7-4790K
 
 **数据划分：**
 
-![test_7_data](G:\PycharmProjects\LabProjectUniqlo\dataset\image\test_7_data.jpg)
+![test_7_data](https://s2.ax1x.com/2019/09/22/u9VFO0.png)
 
 **测试方法：**
 
@@ -325,7 +325,7 @@ CPU：i7-4790K
 
 **测试结果：**
 
-![test_7_result](G:\PycharmProjects\LabProjectUniqlo\dataset\image\test_7_result.jpg)
+![test_7_result](https://s2.ax1x.com/2019/09/22/u9VAmV.png)
 
 
 
@@ -353,7 +353,7 @@ CPU：i7-4790K
 
 (以下结果均使用 <u>手动K-fold</u>)
 
-![test_8_1](G:\PycharmProjects\LabProjectUniqlo\dataset\image\test_8_1.jpg)
+![test_8_1](https://s2.ax1x.com/2019/09/22/u9VEwT.png)
 
 ```Python
 # 正向正常数据记为 +
@@ -375,7 +375,7 @@ CPU：i7-4790K
 # train(S) 表示训练集中特殊数据的数量
 ```
 
-![test_8_sample](G:\PycharmProjects\LabProjectUniqlo\dataset\image\test_8_sample.jpg)
+![test_8_sample](https://s2.ax1x.com/2019/09/22/u9VVTU.png)
 
 **划分依据：**
 
@@ -444,7 +444,7 @@ test(-) : test(S) = num(-) : num(S)
 
 **测试结果**
 
-![test_9_data](G:\PycharmProjects\LabProjectUniqlo\dataset\image\test_9_data.jpg)
+![test_9_data](https://s2.ax1x.com/2019/09/22/u9VekF.png)
 
 
 
