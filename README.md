@@ -19,12 +19,6 @@
 
 ​	共 **17113** 条已标注的用户评论，正向评论标注为 **1**，负向为 **0**
 
-​	文件名：xlsx
-
-​	数据目录：[./dataset/uniqlo_real_comments.xlsx](./dataset/uniqlo_real_comments.xlsx)
-
-​	数据概览：		![normal_data](https://s2.ax1x.com/2019/09/22/u9Ejw8.png)
-
 
 
 ### 特殊数据
@@ -32,16 +26,6 @@
 ​	共 **806** 条已标注的用户评论，评论真实情感为正向，规则判断为负向
 
 ​	特殊数据情感标注均为 **0** 
-
-​	文件格式：xls
-
-​	数据目录：[./dataset/misjudged_comments.xls](.\dataset\misjudged_comments.xls)
-
-​	数据概览：
-
-![mis_data](https://s2.ax1x.com/2019/09/22/u9EXef.png)
-
-​	
 
 
 
@@ -103,19 +87,23 @@ CPU：i7-4790K
 
 将第一次处理过的数据按照情感分类，保存为**CSV**文件
 
-正向：[./dataset/pos_data.csv](./dataset/pos_data.csv)
-
-负向：[./dataset/neg_data.csv](./dataset/neg_data.csv)
-
 
 
 #### 特殊数据
 
 去除重复数据，去除标点符号，打乱顺序，将情感标签重新编辑为 **1** 并保存
 
-特殊：[./dataset/processed_mis.csv](./dataset/processed_mis.csv)
 
-**处理结果如下表**![reprocessed_result](https://s2.ax1x.com/2019/09/22/u9Eqyt.png)
+
+处理后数据集及其数据量如下：
+
+普通数据：**13457**
+
+正向数据：**8553**
+
+负向数据：**4904**
+
+特殊数据：**773**
 
 其中评论列名为 **‘comment’**， 情感标签列名为 **’sentiment‘**
 
