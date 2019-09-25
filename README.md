@@ -273,9 +273,9 @@ CPU：i7-4790K
 
 ![test_6_sklearn_LinReg](https://s2.ax1x.com/2019/09/22/u9VPln.png)
 
-**sklearn.svm.LinearSVC 及 sklearn.svm.S方法测试结果：**
+**sklearn.svm.LinearSVC 及 sklearn.svm.SVC方法测试结果：**
 
-![test_6_svm](https://s2.ax1x.com/2019/09/22/u9Viyq.png)
+![test_6_svm](https://s2.ax1x.com/2019/09/25/uZQDrq.png)
 
 
 
@@ -283,7 +283,7 @@ CPU：i7-4790K
 
 两个包中的逻辑回归方法内部存在差异，导致结果不同，**sklearn**的**LR**方法在该数据集上表现较好
 
-在该数据集 (<a href="#尝试  5">尝试  5</a> ) 上的**SVC**方法表现优于**LinearSVC**方法
+在该数据集 (<a href="#尝试  5">尝试  5</a> ) 上的基于**SVM**模型的**SVC**方法表现优于**LinearSVC**方法
 
 综合两种**LR**和两种**SVM**模型的结果可以看出，**LSTM**模型准确率明显更好，体现了深度学习的优势
 
